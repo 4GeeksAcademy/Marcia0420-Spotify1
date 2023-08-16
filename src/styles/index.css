@@ -10,3 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* // esto pa esconser booton */
+audio::-webkit-media-controls-fullscreen-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pausebutton {
+  display: none;
+}
